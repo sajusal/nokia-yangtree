@@ -23,28 +23,26 @@ The following web pages have been generated for you to easily navigate SR OS YAN
 
 > Note: due to the substantial size of the HTML documents it might take a while to load them.
 
-Read more about the YANG browser capabilities [here](https://netdevops.me/2020/nokia-yang-tree/).
-
 ## 3 Download
 There are several ways to download the outputs for a specific release. The below examples will assume the `sros_21.5.r2` release is in question.
 
 ### 3.1 Clone with git
 If git is installed it is possible to clone the artifacts for a specific tag with the following command:
 ```
-git clone -b sros_21.5.r2 --depth 1 https://github.com/hellt/nokia-yangtree
+git clone -b sros_21.5.r2 --depth 1 https://github.com/sajusal/nokia-yangtree
 ```
 
 ### 3.2 Archives
 It is possible to download the whole outputs collection for a specific release in the `zip` or `tgz` containers.
 
-The github `releases`(https://github.com/hellt/nokia-yangtree/releases) page contains the direct links to those archives. If needed, the download link can be programmatically concatenated using the following rule:
+The github `releases`(https://github.com/sajusal/nokia-yangtree/releases) page contains the direct links to those archives. If needed, the download link can be programmatically concatenated using the following rule:
 
 **for zip**
-`https://github.com/hellt/nokia-yangtree/archive/` + `tag_name` + `zip`
+`https://github.com/sajusal/nokia-yangtree/archive/` + `tag_name` + `zip`
 
 **for tar.gz**
-`https://github.com/hellt/nokia-yangtree/archive/` + `tag_name` + `tar.gz`
+`https://github.com/sajusal/nokia-yangtree/archive/` + `tag_name` + `tar.gz`
 
 Here are the direct links to download `sros_21.5.r2` models outputs in the respective containers:
-- [sros_21.5.r2.zip](https://github.com/hellt/nokia-yangtree/archive/sros_21.5.r2.zip)
-- [sros_21.5.r2.tar.gz](https://github.com/hellt/nokia-yangtree/archive/sros_21.5.r2.tar.gz)
+- [sros_21.5.r2.zip](https://github.com/sajusal/nokia-yangtree/archive/sros_21.5.r2.zip)
+- [sros_21.5.r2.tar.gz](https://github.com/sajusal/nokia-yangtree/archive/sros_21.5.r2.tar.gz)
